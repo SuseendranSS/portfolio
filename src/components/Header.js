@@ -30,7 +30,7 @@ export default function Header() {
     >
       <div className={`fixed top-0 left-0 w-full z-10 transition-all duration-300 ${scroll ? 'bg-white text-black shadow-lg' : 'bg-transparent text-white'}`}>
         <div className={`flex justify-between ${scroll ? 'p-5 pl-10' : 'p-10'}`}>
-          <a href="#about-me" className="text-3xl">Suseendran S S |</a>
+          <a href="#about-me" className='text-3xl'>Suseendran S S |</a>
 
           <div className='flex'>
             <ul className={`my-auto md:ml-auto md:flex ${ menuOpen ? 'block' : 'hidden'} md:block`}>
@@ -101,13 +101,13 @@ export default function Header() {
 
       <div className="block relative h-[90vh] min-h-[600px]">
         <div className="absolute inset-0 h-full w-full"></div>
-        <div className="relative h-full w-full px-4 mx-auto">
+        <div className="relative h-full w-full px-4 mx-auto backdrop-blur-sm md:backdrop-blur-none">
           <div className="absolute left-0 top-1/2 transform -translate-y-1/2 w-full text-white text-right pr-10">
             <h4 className="font-medium text-2xl md:text-2xl lg:text-3xl mb-3 font-dosis mt-0">
               Hello, I am
             </h4>
-            <h1 className="font-bold text-4xl">Suseendran S S</h1>
-            <h6 className="font-medium tracking-wide mt-3 mb-10 text-2xl">
+            <h1 className="font-bold text-4xl md:text-2xl">Suseendran S S</h1>
+            <h6 className="font-medium tracking-wide mt-3 mb-10 text-2xl md:text-xl">
               Full Stack Developer | Software Developer
             </h6>
             <a href="/resume.pdf" download>
