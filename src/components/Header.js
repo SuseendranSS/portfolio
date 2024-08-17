@@ -106,8 +106,8 @@ export default function Header() {
             <h4 className="font-medium text-2xl md:text-2xl lg:text-3xl mb-3 font-dosis mt-0">
               Hello, I am
             </h4>
-            <h1 className="font-bold text-4xl md:text-2xl">Suseendran S S</h1>
-            <h6 className="font-medium tracking-wide mt-3 mb-10 text-2xl md:text-xl">
+            <h1 className="font-bold text-2xl md:text-4xl">Suseendran S S</h1>
+            <h6 className="font-medium tracking-wide mt-3 mb-10 text-xl md:text-2xl">
               Full Stack Developer | Software Developer
             </h6>
             <a href="/resume.pdf" download>
