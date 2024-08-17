@@ -24,7 +24,7 @@ export default function Header() {
     <div
       className="font-mono bg-gradient-to-t from-black via-black bg-no-repeat bg-fixed bg-auto md:bg-contain"
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/bg2.jpg)`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/bg.jpg)`,
         color: '#fff',
       }}
     >
