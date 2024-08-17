@@ -99,7 +99,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="block relative h-[90vh] min-h-[600px]">
+      <div className="block relative h-[50vh] md:h-[90vh] md:min-h-[600px]">
         <div className="absolute inset-0 h-full w-full"></div>
         <div className="relative h-full w-full px-4 mx-auto">
           <div className="absolute left-0 top-1/2 transform -translate-y-1/2 w-full text-white pl-10">
