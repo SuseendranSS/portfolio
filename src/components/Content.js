@@ -54,7 +54,7 @@ export default function Content() {
         </div>
         <div className="relative col-span-1 w-full h-full flex justify-center items-center">
           <div className="h-full w-1 bg-customPurple"></div>
-          <div className="absolute w-6 h-6 rounded-full bg-customPurple z-10"></div>
+          <div className="absolute w-6 h-6 rounded-full bg-customPurple z-1"></div>
         </div>
         <div className="col-span-4 w-full h-full"></div>
 
@@ -62,7 +62,7 @@ export default function Content() {
         <div className="col-span-4 w-full h-full"></div>
         <div className="relative col-span-1 w-full h-full flex justify-center items-center">
           <div className="h-full w-1 bg-customPurple"></div>
-          <div className="absolute w-6 h-6 rounded-full bg-customPurple z-10"></div>
+          <div className="absolute w-6 h-6 rounded-full bg-customPurple z-1"></div>
         </div>
         <div className="col-span-4 w-full h-full">
           <div className="w-full h-full shadow-custom-purple rounded-md p-2 md:pl-4">
@@ -83,7 +83,7 @@ export default function Content() {
         </div>
         <div className="relative col-span-1 w-full h-full flex justify-center items-center">
           <div className="h-full w-1 bg-customPurple"></div>
-          <div className="absolute w-6 h-6 rounded-full bg-customPurple z-10"></div>
+          <div className="absolute w-6 h-6 rounded-full bg-customPurple z-1"></div>
         </div>
         <div className="col-span-4 w-full h-full"></div>
       </div>

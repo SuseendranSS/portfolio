@@ -22,15 +22,15 @@ export default function Header() {
 
   return (
     <div
-      className="font-mono bg-gradient-to-t from-black via-black bg-no-repeat bg-fixed bg-cover"
+      className="font-mono bg-gradient-to-t from-black via-black bg-no-repeat bg-fixed bg-auto md:bg-contain"
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/bg3.png)`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/bg2.jpg)`,
         color: '#fff',
       }}
     >
       <div className={`fixed top-0 left-0 w-full z-10 transition-all duration-300 ${scroll ? 'bg-white text-black shadow-lg' : 'bg-transparent text-white'}`}>
-        <div className={`flex justify-between ${scroll ? 'p-5 pl-10' : 'p-10'}`}>
-          <a href="#about-me" className='text-3xl'>Suseendran S S |</a>
+        <div className={`flex justify-between ${scroll ? 'p-5 pl-10' : 'p-10 pt-5'}`}>
+          <a href="#about-me" className='text-lg md:text-3xl'>Suseendran S S |</a>
 
           <div className='flex'>
             <ul className={`my-auto md:ml-auto md:flex ${ menuOpen ? 'block' : 'hidden'} md:block`}>
@@ -101,8 +101,8 @@ export default function Header() {
 
       <div className="block relative h-[90vh] min-h-[600px]">
         <div className="absolute inset-0 h-full w-full"></div>
-        <div className="relative h-full w-full px-4 mx-auto backdrop-blur-sm md:backdrop-blur-none">
-          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 w-full text-white text-right pr-10">
+        <div className="relative h-full w-full px-4 mx-auto">
+          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 w-full text-white pl-10">
             <h4 className="font-medium text-2xl md:text-2xl lg:text-3xl mb-3 font-dosis mt-0">
               Hello, I am
             </h4>
@@ -111,7 +111,7 @@ export default function Header() {
               Full Stack Developer | Software Developer
             </h6>
             <a href="/resume.pdf" download>
-              <button className="bg-customPurple hover:bg-hoverPurple text-white font-bold p-4 rounded-full">
+              <button className="bg-downloadPurple hover:bg-downloadPurple2 text-white font-bold p-4 rounded-full">
                 Download Resume
               </button>
             </a>

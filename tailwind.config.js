@@ -9,6 +9,8 @@ module.exports = {
         customPurple: '#6c55e0',
         hoverPurple: '#6c55e0d1',
         dotPurple: '#6c55e075',
+        downloadPurple: '#190872',
+        downloadPurple2: '#3b27a4',
       },
       fontFamily: {
         oswald: ['Oswald', 'sans-serif'],
