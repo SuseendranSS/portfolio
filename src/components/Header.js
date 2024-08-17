@@ -110,8 +110,8 @@ export default function Header() {
             <h6 className="font-medium tracking-wide mt-3 mb-10 text-sm md:text-2xl">
               Full Stack Developer | Software Developer
             </h6>
-            <a href="/resume.pdf" download>
-              <button className="bg-downloadPurple hover:bg-downloadPurple2 text-white text-lg font-bold p-4 rounded-full">
+            <a href="/resume.pdf" download className='h-14 w-56'>
+              <button className="bg-downloadPurple hover:bg-downloadPurple2 text-white text-xs md:text-lg font-bold md:p-4 rounded-full">
                 Download Resume
               </button>
             </a>
