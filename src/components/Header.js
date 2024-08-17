@@ -99,7 +99,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="block relative h-[30vh] md:h-[90vh] md:min-h-[600px]">
+      <div className="block relative h-[50vh] md:h-[90vh] md:min-h-[600px]">
         <div className="absolute inset-0 h-full w-full"></div>
         <div className="relative h-full w-full px-4 mx-auto">
           <div className="absolute left-0 top-1/2 transform -translate-y-1/2 w-full text-white pl-10">
@@ -111,7 +111,7 @@ export default function Header() {
               Full Stack Developer | Software Developer
             </h6>
             <a href="/resume.pdf" download>
-              <button className="bg-downloadPurple hover:bg-downloadPurple2 text-white text-lg h-14 w-28 md:font-bold md:p-4 rounded-full">
+              <button className="bg-downloadPurple hover:bg-downloadPurple2 text-white text-lg font-bold p-4 rounded-full">
                 Download Resume
               </button>
             </a>
